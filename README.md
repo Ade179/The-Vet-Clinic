@@ -25,13 +25,12 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [The_Vet_clinic] <a name="about-project">I created a a database and a table in said database to store data</a>
+# 📖 [The_Vet_clinic] <a name="about-project">I created a  database and a table in said database to store data</a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="built-with">SQL</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -40,7 +39,7 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">SQL</a></li>
   </ul>
 </details>
 
