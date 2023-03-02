@@ -112,3 +112,10 @@ SELECT vets.name AS "Vet", species.name AS "Specie", COUNT(*) FROM visits LEFT J
 LEFT JOIN animals ON visits.animal_id = animals.id LEFT JOIN species ON animals.species_id = species.id
 WHERE vets.name = 'Maisy Smith' GROUP BY vets.name, species.name LIMIT 1;
   
+
+  create index animal_id_asc on visits(animal_id ASC) ;
+
+
+  create index vet_id_asc on visits (vet_id ASC);
+
+  create index email_asc on owners(email ASC) ;
