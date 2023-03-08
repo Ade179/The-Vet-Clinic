@@ -34,7 +34,7 @@
 - clinic employees
 - visits
 
-**[your_project__name]** is The_Vet_clinic
+**[The vet clinc]** is a simple RDBMS that contains a set of tables carrying data
 
 ## 🛠 Built With <a name="built-with"></a>
 
