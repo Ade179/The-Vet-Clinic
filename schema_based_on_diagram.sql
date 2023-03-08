@@ -12,6 +12,19 @@ CREATE TABLE medical_histories (
 status VARCHAR(255)
 );
 
+CREATE TABLE treatments (
+ id SERIAL PRIMARY KEY,
+ type VARCHAR(255),
+ name VARCHAR(255)
+);
+
+CREATE TABLE invoices (
+ id SERIAL PRIMARY KEY,
+ total_amount DECIMAL,
+ generated_at TIMESTAMP,
+ payed_at TIMESTAMP,
+ medical_history_id INT REFERENCES medical_histories(id),
+);
 
 CREATE TABLE invoice_items (
  id SERIAL PRIMARY KEY,
