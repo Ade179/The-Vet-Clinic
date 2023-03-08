@@ -27,30 +27,18 @@
 
 # 📖 [The_Vet_clinic] <a name="about-project">I created a a database and a table in said database to store data</a>
 
-> Describe your project in 1 or 2 sentences.
+> Vet Clinic Database is a relational database to create the data structure for a vet clinic. You will start with one table, and step by step, you will create a complete database with data about:
 
-**[your_project__name]** is a...
+- animals
+- animals' owners
+- clinic employees
+- visits
+
+**[your_project__name]** is The_Vet_clinic
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-~
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
 
 <details>
 <summary>Database</summary>
@@ -63,7 +51,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> 1-3 key features of the application.
 
 - **[Multiple Tables]**
 - **[join tables]**
@@ -95,8 +83,6 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/Ade179)
@@ -110,8 +96,6 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-
 - [ ] **[Table for owners]**
 - [ ] **[Table for animals]**
 
@@ -124,7 +108,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Ade179/The-Vet-Clinic/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,9 +116,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+> If you like this project....please, give a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,9 +124,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+> I would like to thank Microverse code reviewers and everyone who viewed this project and made suggestions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
