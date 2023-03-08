@@ -118,4 +118,8 @@ WHERE vets.name = 'Maisy Smith' GROUP BY vets.name, species.name LIMIT 1;
 
   create index vet_id_asc on visits (vet_id ASC);
 
+
+  
+CREATE index ON visits(vet_id)
+
   create index email_asc on owners(email ASC) ;

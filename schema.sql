@@ -20,8 +20,12 @@ CREATE TABLE vets( id INT NOT NULL GENERATED ALWAYS AS IDENTITY PRIMARY KEY, nam
 
 CREATE TABLE specializations ( vet_id INT, species_id INT, PRIMARY KEY (vet_id, species_id), CONSTRAINT fk_vets FOREIGN KEY (vet_id) REFERENCES vets(id), CONSTRAINT fk_species FOREIGN KEY (species_id) REFERENCES species(id) );
 
-CREATE TABLE visits( vet_id INT, animal_id INT, date_of_visit DATE, PRIMARY KEY (vet_id, animal_id, date_of_visit), CONSTRAINT fk_vets FOREIGN KEY (vet_id) REFERENCES vets(id), CONSTRAINT fk_animals FOREIGN KEY (animal_id) REFERENCES animals(id) );
+CREATE TABLE visits( vet_id INT, animal_id INT, date_of_visit DATE, PRIMARY KEY (vet_id, animal_id, date_of_visit),
+ CONSTRAINT fk_vets FOREIGN KEY (vet_id) REFERENCES vets(id), CONSTRAINT fk_animals FOREIGN KEY (animal_id) REFERENCES animals(id) );
 
 -- Add an email column to your owners table
 ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+CREATE INDEX vet_id_asc on visits (vet_id ASC);
+CREATE INDEX email_asc on owners(email ASC);
 
